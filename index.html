@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather sounds</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="./files/fonts/roboto.css" />
+    </head>
+    <body>
+        <div class="blur">
+            <h1  class="heading">Weather sounds</h1>
+            <div>
+                <button class="btn-rain" id="rain">
+                    <img src="./files/assets/icons/cloud-rain.svg">
+                </button>
+                <button class="btn-summer" id="summer">
+                    <img src="./files/assets/icons/sun.svg">
+                </button>
+                <button class="btn-winter" id="winter">
+                    <img src="./files/assets/icons/cloud-snow.svg">
+                </button>
+            </div>
+            <div>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5" />
+            </div>
+        </div>
+
+        <script src="dist/index.js"></script>
+    </body>
+</html>
